@@ -1,10 +1,11 @@
 README:
+
 This repository contains the complete workflow for Mendelian Randomization (MR), Colocalization, and single-cell RNA-seq integration in druggable genes in periodontitis. It covers data sources (eQTLGen, FINNGEN, DGIdb, Finan et al.), MR and coloc analyses (Fig2A–B), PheWAS validation (Fig2D), functional enrichment (Fig2H), and downstream single-cell analyses (clustering, GSEA/UCell, pseudotime, metabolism, CellChat, SCENIC). Scripts, input data, and results are organized in a modular structure for reproducibility and direct mapping to manuscript figures.
 ————————————————————————
-###Mendelian Randomization and Colocalization
-####H1.0 Data sources
+### Mendelian Randomization and Colocalization
+#### H1.0 Data sources
 
-**Exposure
+**Exposure**
 
 Druggable genes: DGIdb + Finan et al. → 5,883 genes
 
@@ -12,28 +13,28 @@ Cis-eQTLs: eQTLGen (31,684 samples, 16,987 genes)
 
 After intersection: 3,275 exposure genes
 
-**Outcome
+**Outcome**
 
 FINNGEN R11 (2024-06-24, gingivitis/periodontitis)
 
 N=406,876 (118,404 cases; 288,472 controls)
 
-####H2.0 Software and dependencies
+#### H2.0 Software and dependencies
 
-**R ≥ 4.3.0
+- R ≥ 4.3.0
 
-**Key packages: TwoSampleMR, MRPRESSO, coloc, clusterProfiler, org.Hs.eg.db, locuscomparer
+- Key packages: TwoSampleMR, MRPRESSO, coloc, clusterProfiler, org.Hs.eg.db, locuscomparer
 
-**Optional: MetaForest (forest plot), plink (LD clumping)
+- Optional: MetaForest (forest plot), plink (LD clumping)
 
-####H3.0 Directory layout
-data/ (eQTLGen, FINNGEN, OAT.txt, DPP8.txt)
-scripts/ (Fig2A.MR_function.R, Fig2B.coloc.R, plot_PheWAS.R, enrichment_GO_KEGG.R)
-results/ (mendelian test/, coloc/, phewas/, enrichment/)
+#### H3.0 Directory layout
+- data/ (eQTLGen, FINNGEN, OAT.txt, DPP8.txt)
+- scripts/ (Fig2A.MR_function.R, Fig2B.coloc.R, plot_PheWAS.R, enrichment_GO_KEGG.R)
+- results/ (mendelian test/, coloc/, phewas/, enrichment/)
 
-####H4.0 Analysis workflow
+#### H4.0 Analysis workflow
 
-**Step 1. Mendelian Randomization (Fig2A)
+**Step 1. Mendelian Randomization (Fig2A)**
 
 Input: Fig2A.eqtlgen-lite.txt
 
@@ -45,7 +46,7 @@ Run Fig2A.MR.R → results in mendelian test/
 
 Visualization: Fig2A.MetaForest.R (forest plot)
 
-**Step 2. Colocalization (Fig2B)
+**Step 2. Colocalization (Fig2B)**
 
 Input: cis-eQTLs (e.g., OAT.txt, DPP8.txt) + FINNGEN GWAS
 
@@ -55,7 +56,7 @@ Filter PPH4 > 0.9
 
 Visualization: Fig2B.coloc_print.R / locuscomparer → OAT.pdf, DPP8.pdf
 
-**Step 3. PheWAS (Fig2D)
+**Step 3. PheWAS (Fig2D)**
 
 Data: AstraZeneca PheWAS portal (UK Biobank, 450k samples, >17k traits)
 
@@ -63,7 +64,7 @@ Threshold: 2×10⁻⁹
 
 Run plot_PheWAS.R → plot/OAT_binary_*_1.png, _2.png
 
-**Step 4. Enrichment (Fig2H)
+**Step 4. Enrichment (Fig2H)**
 
 GO: enrichGO(ont=BP/CC/MF, p<0.05, q<0.05)
 
@@ -73,17 +74,17 @@ Output: GO.txt, KEGG.txt, and dot/bar plots
 
 Highlight key pathways (e.g., Arginine and proline metabolism)
 
-####H5.0 Expected Outputs 
+#### H5.0 Expected Outputs 
 
-**Fig2A.MR
+**Fig2A.MR**
 
 In: Fig2A.eqtlgen-lite.txt, Fig2A.MR.periodontal.out
 
 Out (per exposure):
 
-dat.xlsx, res.xlsx, MR-PRESSO.xlsx
+`dat.xlsx`, `res.xlsx`, `MR-PRESSO.xlsx`
 
-<exp>_scatter.pdf, _forest.pdf, _funnel.pdf, _leave_one_out.pdf
+`<exp>_scatter.pdf`, `_forest.pdf`, `_funnel.pdf`, `_leave_one_out.pdf`
 
 Summary: mendelian testres.csv (includes FDR on IVW p-values)
 
