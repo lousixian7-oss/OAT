@@ -1,7 +1,9 @@
 README:
 
 This repository contains the complete workflow for Mendelian Randomization (MR), Colocalization, and single-cell RNA-seq integration in druggable genes in periodontitis. It covers data sources (eQTLGen, FINNGEN, DGIdb, Finan et al.), MR and coloc analyses (Fig2A–B), PheWAS validation (Fig2D), functional enrichment (Fig2H), and downstream single-cell analyses (clustering, GSEA/UCell, pseudotime, metabolism, CellChat, SCENIC). Scripts, input data, and results are organized in a modular structure for reproducibility and direct mapping to manuscript figures.
+
 ------
+
 ### Mendelian Randomization and Colocalization
 #### H1.0 Data sources
 
