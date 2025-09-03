@@ -1,0 +1,2 @@
+"V1","SNP","chr","pos","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure","gene-chr","gene-pos"
+1,"rs56166147",19,55309886,"T","G",0.384309,0.397084,0.0268278,1.44e-49,2717,"KIR3DL1","ENSG00000167633",19,55307208

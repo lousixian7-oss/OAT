@@ -1,0 +1,10 @@
+/Figure2/data/Fig2A.[[:space:]]MR.clump/periodontal.out.zip filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/Pyscenic/counts.csv filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/Pyscenic/pythonProject/hg38_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/Pyscenic/pythonProject/motifs-v9-nr.hgnc-m0.001-o0.0.tbl filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/Pyscenic/pythonProject/sce.adj.csv filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/Pyscenic/pythonProject/sce.loom filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/Pyscenic/pythonProject/sce_SCENIC.loom filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/Pyscenic/pythonProject/sce_test.h5ad filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/Pyscenic/seurat_counts.mtx filter=lfs diff=lfs merge=lfs -text
+/Figure7_8/cellchat/Results/cellchat.PD.rds filter=lfs diff=lfs merge=lfs -text

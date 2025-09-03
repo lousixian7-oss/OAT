@@ -1,0 +1,2 @@
+"V1","SNP","chr","pos","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure","gene-chr","gene-pos"
+2,"rs2155364",11,121017301,"T","C",0.13751,-0.0545901,0.0115305,2.2e-06,31684,"TECTA","ENSG00000109927",11,121017042

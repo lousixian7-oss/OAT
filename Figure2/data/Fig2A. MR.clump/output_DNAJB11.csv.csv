@@ -1,0 +1,2 @@
+"V1","SNP","chr","pos","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure","gene-chr","gene-pos"
+13,"rs7630822",3,186304313,"G","T",0.313847,0.0714321,0.00856746,7.58e-17,31564,"DNAJB11","ENSG00000090520",3,186300126

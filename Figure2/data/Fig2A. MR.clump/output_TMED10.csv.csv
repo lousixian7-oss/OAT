@@ -1,0 +1,2 @@
+"V1","SNP","chr","pos","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure","gene-chr","gene-pos"
+2,"rs61980825",14,75617440,"A","G",0.135097,-0.0969999,0.0173023,2.07e-08,14262,"TMED10","ENSG00000170348",14,75620753

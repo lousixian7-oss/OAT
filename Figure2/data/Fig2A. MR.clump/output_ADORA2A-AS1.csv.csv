@@ -1,0 +1,2 @@
+"V1","SNP","chr","pos","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure","gene-chr","gene-pos"
+2,"rs1008932",22,24855182,"C","T",0.392466,-0.0576273,0.00975808,3.51e-09,21987,"ADORA2A-AS1","ENSG00000178803",22,24858110

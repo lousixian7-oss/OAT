@@ -1,0 +1,3 @@
+"V1","SNP","chr","pos","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure","gene-chr","gene-pos"
+1,"rs10745332",1,113189053,"G","A",0.259163,0.0776251,0.0134981,8.88e-09,14260,"CAPZA1","ENSG00000116489",1,113188018
+5,"rs7550315",1,113191868,"C","A",0.104618,-0.110808,0.0218462,3.93e-07,11158,"CAPZA1","ENSG00000116489",1,113188018

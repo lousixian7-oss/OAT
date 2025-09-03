@@ -1,0 +1,2 @@
+"V1","SNP","chr","pos","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure","gene-chr","gene-pos"
+2,"rs187820820",1,11767083,"A","C",0.0160739,0.223838,0.048496,3.92e-06,13421,"DRAXIN","ENSG00000162490",1,11768850

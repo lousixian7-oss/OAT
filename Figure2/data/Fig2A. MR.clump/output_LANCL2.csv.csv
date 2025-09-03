@@ -1,0 +1,2 @@
+"V1","SNP","chr","pos","effect_allele.exposure","other_allele.exposure","eaf.exposure","beta.exposure","se.exposure","pval.exposure","samplesize.exposure","exposure","id.exposure","gene-chr","gene-pos"
+3,"rs815992",7,55471365,"G","A",0.135424,-0.0915504,0.0116352,3.59e-15,31481,"LANCL2","ENSG00000132434",7,55467288
