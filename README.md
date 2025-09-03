@@ -108,6 +108,10 @@ In: core_gene_set.csv (SYMBOLs)
 
 Out: GO.txt, KEGG.txt, and the bar/bubble PDFs above
 
+Due to size restrictions, the large file **Fig2A. MR.periodontal.out** can be shared via Baidu Netdisk as a CSV file: **Fig2A. MR.periodontal.out.csv**
+🔗 **Link:** [https://pan.baidu.com/s/1UOnwwfXmbVEFVQ9VbF9fow?pwd=3e3r](https://pan.baidu.com/s/1UOnwwfXmbVEFVQ9VbF9fow?pwd=3e3r)  
+🔑 **Extraction code:** `3e3r`  
+
 ### Single-cell RNA-seq Preprocessing and Annotation Workflow
 #### H1.0 Input data（GSE171213）
 Path: `D:\scRNAseq\06.Proj_processing\Sen_yazhouyan\H1. harmony\GSE171213\`
